@@ -56,9 +56,16 @@
 }
 
 .main {
-  background: url("http://images6.fanpop.com/image/photos/36800000/Mr-T-mrt-36834304-1163-860.jpg") no-repeat center center;
-  background-size: cover;
   height: 600px;
+}
+
+.jumbotron {
+  border-radius: 0;
+  margin: 0px;
+  background-image: url("http://images6.fanpop.com/image/photos/36800000/Mr-T-mrt-36834304-1163-860.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .main h2 {
