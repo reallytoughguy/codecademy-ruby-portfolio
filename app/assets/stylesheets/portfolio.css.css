@@ -6,7 +6,7 @@
   #portfolio .slideshow-container {
     max-width: 100%;
     position: center;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -52,16 +52,6 @@
     bottom: 8px;
     width: 100%;
     text-align: center;
-  }
-
-  /* Number text (1/3 etc) */
-  #portfolio .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
   }
 
   /* The dots/bullets/indicators */
@@ -139,36 +129,32 @@
   clear: both;
 }
 
-/* Project Css */
+/* Projects */
+
 #portfolio .project {
-  color:#000;
-  margin:0 0 40px;
+  color: #000;
+  margin: 5px;
   text-decoration:none;
-  transition:color .5s
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 #portfolio .project:hover{
-  color:#FFD700
+  color:#FFD700;
+  transition:color .5s;
 }
 
-#portfolio .project h3,.project p{
-  padding:0 20px 0;
+#portfolio .project h3 {
+  padding:0 10px 10px;
 }
 
 #portfolio .project p{
-  -webkit-box-orient:vertical;
-  display:block;
-  display:-webkit-box;
-  -webkit-line-clamp:3;
-  max-height:300px;
-  overflow:hidden;
-  text-overflow:ellipsis
+  padding:0 10px 15px;
 }
 
 #portfolio .thumbnail{
-  border:0;
-  border-radius:0;
+  border: 0;
   max-height:240px;
-  padding:0;
-  overflow:hidden
+  padding: 15px 10px 10px;
+  overflow:hidden;
 }
+
