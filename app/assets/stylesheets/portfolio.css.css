@@ -130,8 +130,9 @@
   margin-bottom: 40px;
 }
 
-#portfolio .supporting .col:hover, .supporting h2:hover, .supporting p:hover {
+#portfolio .supporting .col:hover, .supporting h2:hover, .supporting p:hover, .supporting .col:link, .supporting h2:link, .supporting p:link, .supporting .col:visited, .supporting h2:visited, .supporting p:visited, .supporting .col:active, .supporting h2:active, .supporting p:active{
   color:#FFD700;
+  text-decoration:none; 
 }
 
 #portfolio .clearfix {

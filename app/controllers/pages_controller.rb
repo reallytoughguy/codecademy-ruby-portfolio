@@ -1,16 +1,12 @@
 class PagesController < ApplicationController
   
-  def welcome
-  
+  def welcome 
   end
 
-  def muscle
+  def about
   end
 
-  def pity
-  end
-
-  def fool
+  def portfolio
   end
 
   def blog

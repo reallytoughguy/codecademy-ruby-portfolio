@@ -20,10 +20,10 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-10 col-md-11">
-            <h1>reallytoughguy</h1>
+            <h1><%= link_to 'reallytoughguy', root_path, class: 'h1'%></h1>
           </div>
           <div class="col-xs-2 col-md-1">
-            <img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/facebook/65/flexed-biceps_1f4aa.png" height="60">
+            <%= link_to image_tag("https://emojipedia-us.s3.amazonaws.com/thumbs/120/facebook/65/flexed-biceps_1f4aa.png"), root_path, class: 'img' %>
           </div>
         </div>
       </div>
@@ -32,10 +32,10 @@
     <div class="menu">
       <div class="container">
         <ul class="nav">
-          <li><a href="#">Pity</a></li>
-          <li><a href="#">The Fool</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#"><%= link_to 'Pity', "/portfolio" %></a></li>
+          <li><a href="#"><%= link_to 'The Fool', "/about" %></a></li>
+          <li><a href="#"><%= link_to 'Blog', "/blog" %></a></li>
+          <li><a href="#"><%= link_to 'Contact', "/contact" %></a></li>
         </ul>
       </div>
     </div>
